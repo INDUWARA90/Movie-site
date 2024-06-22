@@ -1,4 +1,77 @@
-.Menu-Icon{
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Menu-Icon {
     cursor: pointer;
 }
 
+
+.Fotter{
+  height: 320px;
+  display: grid;
+  grid-row: 1fr 1fr 1fr 1fr;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.Fotter div{
+    padding: 5px;
+  
+}
+.foter-heding{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
+
+.Navigation-footer,.Navigation-footer a{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+
+}
+.Navigation-footer a,li{
+    margin-left: -15px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.Navigation-footer a:hover{
+    color: rgb(71, 115, 247);
+}
+
+.follow-us{
+ 
+    color: white;
+    text-align: center;   
+}
+.icons{
+    width: 40px;
+    border-radius: 30px;
+}
+.icons:hover{
+    width: 42px;
+    cursor: pointer;
+}
+.rights{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: -1px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
